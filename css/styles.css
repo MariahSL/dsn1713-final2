@@ -1,7 +1,68 @@
 .hero-section {
-   min-height: 80vh; /* Adjust to show more of the image */
+   min-height: 80vh;
    display: flex;
-   align-items: center; /* Vertically centers the content */
-   padding-top: 50px; /* Additional spacing above text */
-   padding-bottom: 50px; /* Additional spacing below text */
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
+
+.navbar-custom {
+   background-color: #bc9dca;
+   border-bottom: 2px solid #a57bb8;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-custom .navbar-toggler {
+   border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-custom .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.services-section {
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+
+.about-section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.btn-custom {
+   background-color: #9b7ba8; /* Darker shade of navbar color */
+   border-color: #9b7ba8; /* Border matches the button */
+   color: #ffffff; /* White text for contrast */
+}
+
+.btn-custom:hover {
+   background-color: #7a5b87; /* Even darker shade for hover */
+   border-color: #7a5b87; /* Match border to hover color */
+   color: #ffffff; /* Keep text white */
+}
+
+.footer-custom {
+   background-color: #5e4e74; /* 60% darker shade of #bc9dca */
+   color: #ffffff; /* White text for contrast */
+}
+
+.footer-custom a {
+   color: #ffffff; /* Ensure links are white */
+   text-decoration: none;
+}
+
+.footer-custom a:hover {
+   color: #d1c1e0; /* Slightly lighter shade for hover */
+}
+
+
