@@ -1,0 +1,7 @@
+.hero-section {
+   min-height: 80vh; /* Adjust to show more of the image */
+   display: flex;
+   align-items: center; /* Vertically centers the content */
+   padding-top: 50px; /* Additional spacing above text */
+   padding-bottom: 50px; /* Additional spacing below text */
+}
