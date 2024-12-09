@@ -1,0 +1,7 @@
+.hero-section {
+   min-height: 80vh;
+   display: flex;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
