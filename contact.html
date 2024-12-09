@@ -9,9 +9,11 @@
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-            <a class="navbar-brand" href="#">Mariah's Creeative Studio</a>
+            <a class="navbar-brand" href="#">
+               <img src="images/profilepic.png" alt="Logo" style="width: 40px; height: 40px;" class="me-2">
+               Mariah's Creeative Studio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,28 +30,43 @@
 
     <header class="text-white py-5" style="background: url('images/hero.webp') no-repeat center center / cover;">
         <div class="container">
-            <h1 class="display-4">Contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
+         <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/circleportrait.png" alt="About Me" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+               <h2>Contact</h2>
+               <p>Ottawa-based designer specializing in branding and web design.</p>
+               <a href="aboutme.html" class="btn btn-light">Learn More</a>
+            </div>
     </header>
 
-    <section class="py-5">
+   <main>
+
+    <section class="py-5" style="background-color: #bc9dca;">
         <div class="container text-center">
             <h2>Let's Connect</h2>
             <p>Follow me on social media or send an email.</p>
             <div class="d-flex justify-content-center">
-                <a href="#" class="btn btn-primary mx-2">Facebook</a>
-                <a href="#" class="btn btn-secondary mx-2">Instagram</a>
-                <a href="#" class="btn btn-light mx-2">Email</a>
+                <a href="#" class="btn btn-custom mx-2">Facebook</a>
+                <a href="#" class="btn btn-custom mx-2">Instagram</a>
+                <a href="#" class="btn btn-custom mx-2">Email</a>
             </div>
         </div>
     </section>
 
-    <footer class="bg-dark text-light py-4">
-        <div class="container text-center">
-            <p>© 2024 anewby. All rights reserved.</p>
-        </div>
-    </footer>
+   </main>
+   <footer class="footer-custom text-center py-4">
+      <div class="container">
+         <img src="images/butterfly.png" alt="Logo" class="mb-3" style="width: 80px; height: auto;">
+          <p>© 2024 Mariah's Creeative Studio. All rights reserved.</p>
+          <div class="d-flex justify-content-center">
+              <a href="#" class="text-white mx-2">Facebook</a>
+              <a href="#" class="text-white mx-2">Instagram</a>
+              <a href="#" class="text-white mx-2">Email</a>
+          </div>
+      </div>
+   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -40,29 +40,43 @@
 }
 
 .btn-custom {
-   background-color: #9b7ba8; /* Darker shade of navbar color */
-   border-color: #9b7ba8; /* Border matches the button */
-   color: #ffffff; /* White text for contrast */
+   background-color: #9b7ba8;
+   border-color: #9b7ba8;
+   color: #ffffff;
 }
 
 .btn-custom:hover {
-   background-color: #7a5b87; /* Even darker shade for hover */
-   border-color: #7a5b87; /* Match border to hover color */
-   color: #ffffff; /* Keep text white */
+   background-color: #7a5b87;
+   border-color: #7a5b87;
+   color: #ffffff;
 }
 
 .footer-custom {
-   background-color: #5e4e74; /* 60% darker shade of #bc9dca */
-   color: #ffffff; /* White text for contrast */
+   background-color: #5e4e74;
+   color: #ffffff;
 }
 
 .footer-custom a {
-   color: #ffffff; /* Ensure links are white */
+   color: #ffffff;
    text-decoration: none;
 }
 
 .footer-custom a:hover {
-   color: #d1c1e0; /* Slightly lighter shade for hover */
+   color: #d1c1e0;
 }
 
+.about-hero-section {
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
+.services-hero-section {
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
